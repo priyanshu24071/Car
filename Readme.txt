@@ -18,8 +18,8 @@ The project uses two tables in the MySQL database:
 
 Car Table: Stores details of car records, including car number, user number, names, card number, dates, company, color, and model.
 
-sql
-Copy code
+SQL
+
 CREATE TABLE car (
     id INT AUTO_INCREMENT PRIMARY KEY,
     carNo VARCHAR(50),
@@ -35,8 +35,8 @@ CREATE TABLE car (
 );
 Color Table: Stores available colors for cars.
 
-sql
-Copy code
+SQL
+
 CREATE TABLE color (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(50)
